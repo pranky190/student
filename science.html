@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Stream</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #e1f5fe, #f0f4c3);
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #00796b;
+            color: #ffffff;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #b2dfdb;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .content {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            margin-bottom: 40px;
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .content img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 20px auto;
+            display: block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #00796b;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            color: #004d40;
+            margin: 20px 0 10px;
+            border-bottom: 2px solid #e0f2f1;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        a.back-link {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 12px 25px;
+            background: #00796b;
+            color: #ffffff;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        a.back-link:hover {
+            background-color: #004d40;
+            transform: translateY(-3px);
+        }
+
+        /* New Section Styles */
+        .icon {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .section-header img {
+            margin-right: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .content img {
+                max-width: 100%;
+            }
+
+            .section-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .section-header img {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Science Stream</h1>
+        <nav>
+            <a href="#education">Further Education</a>
+            <a href="#specializations">Specializations</a>
+            <a href="#skills">Skills Needed</a>
+            <a href="#jobs">Job Opportunities</a>
+            <a href="#growth">Career Growth</a>
+            <a href="#extracurriculars">Extracurricular Activities</a>
+            <a href="#trends">Emerging Fields</a>
+            <a href="#projects">Important Projects</a>
+            <a href="#sectors">Potential Industry Sectors</a>
+            <a href="#financial">Scholarships & Aid</a>
+            <a href="#pu-combinations">PU Subject Combinations</a>
+            <a href="#competitive-exams">PU Competitive Exams</a> <!-- New Link -->
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content" id="education">
+            <img src="science.jpg" alt="Science Stream">
+            <h2>Explore Your Science Stream Options</h2>
+            <h3>Further Education:</h3>
+            <ul>
+                <li><strong>Bachelor of Computer Applications (BCA):</strong> A foundational program focusing on computer programming, software development, and information technology principles.</li>
+                <li><strong>Engineering (B.Tech/B.E.):</strong> Offers specialized branches like Mechanical, Civil, Electrical, and Computer Engineering, emphasizing both theoretical knowledge and practical application.</li>
+                <li><strong>MBBS (Bachelor of Medicine and Bachelor of Surgery):</strong> A rigorous program aimed at producing skilled medical professionals capable of diagnosing and treating illnesses.</li>
+                <li><strong>B.Sc. in Various Specializations:</strong> Programs in Physics, Chemistry, Mathematics, Biology, and other sciences that delve deep into theoretical and experimental aspects.</li>
+                <li><strong>B.Sc. Nursing:</strong> Focuses on healthcare, patient care, and the medical processes involved in nursing, preparing students for careers in various healthcare settings.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="specializations">
+            <h3>Specializations in Engineering:</h3>
+            <ul>
+                <li><strong>Computer Science Engineering:</strong> Focuses on software development, algorithms, data structures, and emerging technologies like artificial intelligence.</li>
+                <li><strong>Information Technology:</strong> Emphasizes the management and processing of information, including network security, database management, and systems analysis.</li>
+                <li><strong>Mechanical Engineering:</strong> Involves the design, analysis, and manufacturing of mechanical systems, including engines, machinery, and tools.</li>
+                <li><strong>Civil Engineering:</strong> Concentrates on infrastructure development, such as buildings, bridges, roads, and water supply systems.</li>
+                <li><strong>Electrical Engineering:</strong> Deals with electrical systems, electronics, power generation, and the development of electrical devices.</li>
+                <li><strong>Chemical Engineering:</strong> Combines principles of chemistry and engineering to develop processes for producing chemicals, fuels, and pharmaceuticals.</li>
+                <li><strong>Aerospace Engineering:</strong> Focuses on the design and development of aircraft and spacecraft, including aerodynamics and propulsion systems.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="skills">
+            <h3>Skills Needed:</h3>
+            <ul>
+                <li><strong>Problem-solving and Analytical Skills:</strong> Ability to identify issues, analyze data, and develop effective solutions.</li>
+                <li><strong>Programming Languages (Python, Java, C++):</strong> Proficiency in coding is essential for fields like computer science, data analysis, and software development.</li>
+                <li><strong>Strong Mathematical Foundation:</strong> Essential for understanding complex theories, conducting research, and performing precise calculations.</li>
+                <li><strong>Research and Critical Thinking:</strong> Ability to conduct experiments, analyze results, and think critically about findings.</li>
+                <li><strong>Attention to Detail:</strong> Precision is crucial in experiments, data analysis, and engineering design to ensure accuracy and reliability.</li>
+                <li><strong>Communication Skills:</strong> Effective communication is necessary for collaborating with teams, presenting findings, and writing reports.</li>
+                <li><strong>Time Management:</strong> Balancing multiple projects and deadlines requires efficient time management skills.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="jobs">
+            <h3>Job Opportunities:</h3>
+            <ul>
+                <li><strong>Software Engineer:</strong> Develops applications, systems, and solutions using programming languages and software tools.</li>
+                <li><strong>Data Scientist:</strong> Analyzes complex data sets to inform business decisions, utilizing statistical and computational skills.</li>
+                <li><strong>Research Scientist:</strong> Conducts experiments, analyzes results, and contributes to scientific knowledge in various fields.</li>
+                <li><strong>Civil Engineer:</strong> Designs and oversees construction projects, ensuring safety and adherence to regulations.</li>
+                <li><strong>Medical Professional:</strong> Provides healthcare services, diagnoses, and treats patients in various medical fields.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="growth">
+            <h3>Career Growth:</h3>
+            <ul>
+                <li><strong>Higher Education:</strong> Pursuing postgraduate degrees or specialized certifications can open up advanced career paths.</li>
+                <li><strong>Experience:</strong> Gaining experience through internships and entry-level positions enhances skills and increases employability.</li>
+                <li><strong>Networking:</strong> Building professional relationships can lead to job opportunities and career advancement.</li>
+                <li><strong>Continuous Learning:</strong> Staying updated with industry trends and technologies through workshops, webinars, and courses is vital for growth.</li>
+                <li><strong>Leadership Roles:</strong> Taking on leadership positions or managerial roles can lead to higher salaries and more responsibilities.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="extracurriculars">
+            <h3>Extracurricular Activities:</h3>
+            <ul>
+                <li><strong>Science Clubs:</strong> Participate in science fairs, exhibitions, and competitions to enhance practical knowledge.</li>
+                <li><strong>Internships:</strong> Gain real-world experience and apply theoretical knowledge in professional settings.</li>
+                <li><strong>Workshops and Seminars:</strong> Attend events related to emerging technologies and scientific advancements.</li>
+                <li><strong>Volunteering:</strong> Engage in community service projects related to science and health to develop a sense of responsibility.</li>
+                <li><strong>Online Courses:</strong> Explore MOOCs (Massive Open Online Courses) to further expand knowledge in specific areas of interest.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="trends">
+            <h3>Emerging Fields:</h3>
+            <ul>
+                <li><strong>Artificial Intelligence and Machine Learning:</strong> A rapidly growing area with applications in various industries, from healthcare to finance.</li>
+                <li><strong>Data Science and Big Data:</strong> Analyzing large datasets for insights is becoming increasingly crucial in decision-making.</li>
+                <li><strong>Biotechnology:</strong> Innovations in genetics and pharmaceuticals are creating new career opportunities in healthcare.</li>
+                <li><strong>Renewable Energy:</strong> Focus on sustainable energy sources is leading to new job prospects in engineering and environmental science.</li>
+                <li><strong>Robotics:</strong> Integrating robotics into manufacturing and healthcare is revolutionizing multiple industries.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="projects">
+            <h3>Important Projects:</h3>
+            <ul>
+                <li><strong>Final Year Engineering Projects:</strong> Designing and developing innovative solutions, often working in teams.</li>
+                <li><strong>Research Papers:</strong> Conducting original research and publishing findings in academic journals.</li>
+                <li><strong>Community Science Projects:</strong> Engaging with local communities to solve practical problems using scientific methods.</li>
+                <li><strong>Internship Projects:</strong> Working on real-world projects during internships to gain hands-on experience.</li>
+                <li><strong>Collaborative Projects:</strong> Partnering with peers or organizations to tackle complex scientific challenges.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="sectors">
+            <h3>Potential Industry Sectors:</h3>
+            <ul>
+                <li><strong>Information Technology:</strong> Software development, data analysis, and cybersecurity.</li>
+                <li><strong>Healthcare:</strong> Medical research, pharmaceuticals, and healthcare services.</li>
+                <li><strong>Engineering:</strong> Civil, mechanical, electrical, and aerospace engineering.</li>
+                <li><strong>Research and Development:</strong> Academic and corporate research institutions focused on innovation.</li>
+                <li><strong>Environmental Science:</strong> Roles in sustainability, conservation, and environmental management.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="financial">
+            <h3>Scholarships & Aid:</h3>
+            <ul>
+                <li><strong>Merit-based Scholarships:</strong> Offered by universities for outstanding academic performance.</li>
+                <li><strong>Government Scholarships:</strong> Various state and central government schemes aimed at supporting students from diverse backgrounds.</li>
+                <li><strong>Private Scholarships:</strong> Provided by organizations and foundations for specific fields of study.</li>
+                <li><strong>Need-based Financial Aid:</strong> Assistance for students facing financial challenges.</li>
+                <li><strong>Research Grants:</strong> Funding for students pursuing innovative projects in science and technology.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="pu-combinations">
+            <h2>PU Subject Combinations</h2>
+            <ul>
+                <li><strong>PCM:</strong> Physics, Chemistry, Mathematics - Ideal for engineering aspirants.</li>
+                <li><strong>PCB:</strong> Physics, Chemistry, Biology - Suitable for medical aspirants.</li>
+                <li><strong>PCMB:</strong> Physics, Chemistry, Mathematics, Biology - Offers flexibility for various competitive exams.</li>
+                <li><strong>Commerce with Science:</strong> Combines science with commerce subjects for varied career options.</li>
+                <li><strong>Humanities with Science:</strong> Integrates science with humanities for diverse interdisciplinary fields.</li>
+            </ul>
+        </div>
+
+        <div class="content" id="competitive-exams">
+            <h2>PU Competitive Exams</h2>
+            <h3>Overview:</h3>
+            <p>Pre-University competitive exams are crucial for students aiming to enter prestigious institutions or specific professional courses. These exams test students' knowledge, analytical skills, and problem-solving abilities in their chosen subjects.</p>
+            
+            <h3>Popular Competitive Exams:</h3>
+            <ul>
+                <li><strong>JEE Main:</strong> Joint Entrance Examination for engineering programs in various colleges across India.</li>
+                <li><strong>NEET:</strong> National Eligibility cum Entrance Test for admission to medical colleges.</li>
+                <li><strong>KCET:</strong> Karnataka Common Entrance Test for undergraduate courses in engineering, agriculture, and pharmacy.</li>
+                <li><strong>COMEDK:</strong> Consortium of Medical, Engineering, and Dental Colleges of Karnataka for undergraduate programs.</li>
+                <li><strong>UPSC:</strong> Union Public Service Commission exams for various civil services and administrative roles.</li>
+            </ul>
+            
+            <h3>Usefulness of Competitive Exams:</h3>
+            <ul>
+                <li><strong>Access to Prestigious Institutions:</strong> High scores in these exams often provide admission to top-tier colleges and universities.</li>
+                <li><strong>Career Opportunities:</strong> Many professional fields require specific entrance exams, making them essential for career progression.</li>
+                <li><strong>Skill Development:</strong> Preparing for competitive exams enhances critical thinking, time management, and subject comprehension.</li>
+                <li><strong>Scholarship Opportunities:</strong> Top performers may qualify for scholarships, reducing financial burdens.</li>
+                <li><strong>Networking:</strong> Participating in competitive exams can lead to connections with peers and professionals in your field of interest.</li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="roadmap.html" class="back-link">Back to Main Menu</a>
+</body>
+</html>
